@@ -101,6 +101,14 @@ main {
     top: 559px;
     right: 34px;
     padding: 15px 15px 50px 15px;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+
+    &.card-alert--show {
+      visibility:visible;
+      opacity:1;
+    }
 
     &__content {
       display: flex; 

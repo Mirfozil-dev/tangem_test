@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { emit } from 'process';
 import { defineProps, defineEmits, watch, computed } from 'vue';
 
 type Props = {

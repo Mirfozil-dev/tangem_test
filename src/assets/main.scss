@@ -12,7 +12,7 @@ main {
   height: 3000px;
 
   .navbar-alert {
-    background: linear-gradient(180deg, #101010 0%, #0b0b0b 100%);
+    background: linear-gradient(to left, #323020 0%, #0b0b0b 100%);
     display: flex;
     margin-top: 4px;
     width: 100%;
@@ -30,10 +30,13 @@ main {
     }
     &__text {
       display: flex;
+      align-items: center;
       gap: 12px;
       margin: auto 0;
     }
     &__date {
+      display: flex;
+      align-items: center;
       color: var(--Text-Night-Primary-1, #fff);
       letter-spacing: 0.05px;
       flex-grow: 1;
@@ -41,17 +44,20 @@ main {
       font: 400 16px/20px SF Pro Text, sans-serif;
     }
     &__percent {
+      display: flex;
+      align-items: center;
       color: #d7a830;
       letter-spacing: -0.64px;
       align-self: stretch;
       font: 600 16px/125% Graphik LC, sans-serif;
     }
     &__code {
+      display: flex;
+      align-items: center;
       color: white;
       letter-spacing: 0.05px;
       white-space: nowrap;
       flex-grow: 1;
-      padding-left: 15px;
       justify-content: center;
       font: 400 16px/20px SF Pro Text, sans-serif;
     }
@@ -82,6 +88,10 @@ main {
       align-self: center;
       max-width: 100%;
       margin: auto 0;
+    }
+    &__dot {
+      color: #323232;
+      font-size: 25px;
     }
   }
   .card-alert {
@@ -189,13 +199,13 @@ main {
 }
 @media (max-width: 834px) {
   .tablet_not_visible {
-    display: none;
+    display: none !important;
   }
 }
 
 @media (max-width: 660px) {
   .mobile_not_visible {
-    display: none;
+    display: none !important;
   }
   .mobile_visible_only {
     display: block;

@@ -24,9 +24,11 @@
             , 24-27 Nov
           </span>
         </div>
+        <span class="navbar-alert__dot mobile_not_visible">·</span>
         <span class="navbar-alert__percent">
           10%OFF
         </span>
+        <span class="navbar-alert__dot mobile_not_visible">·</span>
         <span class="navbar-alert__code mobile_not_visible">
           <span
             style="
@@ -41,6 +43,7 @@
               font-family: Graphik LC, -apple-system, Roboto, Helvetica,
                 sans-serif;
               font-weight: 600;
+              margin: 0 5px;
               color: rgba(215, 168, 48, 1);
             ">
             10FRIDAY

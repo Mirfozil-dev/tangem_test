@@ -10,7 +10,7 @@
         src="../assets/images/card_bg.svg"
         class="card-alert__bg"
       />
-      <div class="card-alert__content" style="display: flex; flex-direction: column; align-items: center; padding-right: 20px;">
+      <div class="card-alert__content">
         <div class="card-alert__title">Black Friday</div>
         <div class="card-alert__percent">10%OFF</div>
         <div class="card-alert__code">

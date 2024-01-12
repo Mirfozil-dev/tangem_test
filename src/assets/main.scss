@@ -100,8 +100,14 @@ main {
     position: absolute;
     top: 559px;
     right: 34px;
-    padding: 15px 15px 50px 0;
+    padding: 15px 15px 50px 15px;
 
+    &__content {
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      padding-right: 20px;
+    }
     &__bg {
       position: absolute;
       inset: 0;
@@ -209,6 +215,7 @@ main {
     }
     .card-alert__content {
       width: 100%;
+      padding-right: 0 !important;
       align-items: center;
     }
   }
